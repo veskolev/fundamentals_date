@@ -7,6 +7,7 @@ for num in range(number_of_lines):
     if command == '(':
         balanced = False
         open_bracket = True
+        close_bracket = False
     if command == ')':
         if open_bracket:
             close_bracket = True
